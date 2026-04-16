@@ -1,4 +1,4 @@
-from pydantic import BaseModel, HttpUrl, Field
+from pydantic import BaseModel, HttpUrl, Field, ConfigDict
 
 from tools.fakers import fake
 
@@ -23,6 +23,22 @@ class CreateFileRequestSchema(BaseModel):
 
 
 class CreateFileResponseSchema(BaseModel):
+    """
+    Описание структуры ответа создания файла.
+    """
+    file: FileSchema
+
+
+class GetFileRequestSchema(BaseModel):
+    """
+    Описание структуры запроса на получение списка файлов.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+
+    file_id : str = Field(alias="fileId")
+
+
+class GetFileResponseSchema(BaseModel):
     """
     Описание структуры ответа создания файла.
     """

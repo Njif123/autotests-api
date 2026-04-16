@@ -16,7 +16,7 @@ from tools.fakers import fake
 class TestUsers:
 
     @pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
-    def test_create_user(email, public_users_client):
+    def test_create_user(self, email, public_users_client):
         request = CreateUserRequestSchema(email=fake.email(domain=email))
         response = public_users_client.create_user_api(request)
         response_data = CreateUserResponseSchema.model_validate_json(response.text)
@@ -27,7 +27,7 @@ class TestUsers:
         validate_json_schema(response.json(), response_data.model_json_schema())
 
 
-    def test_get_user_me(private_users_client, function_user):
+    def test_get_user_me(self, private_users_client, function_user):
         response = private_users_client.get_user_me_api()
         response_data = GetUserResponseSchema.model_validate_json(response.text)
         assert_status_code(response.status_code, HTTPStatus.OK)
