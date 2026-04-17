@@ -1,9 +1,15 @@
 from http import HTTPStatus
 
+import allure
 import pytest
+from allure_commons.types import Severity
 
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, \
     GetUserResponseSchema
+from tools.allure.epics import AllureEpic
+from tools.allure.features import AllureFeature
+from tools.allure.stories import AllureStory
+from tools.allure.tags import AllureTag
 
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
@@ -13,9 +19,19 @@ from tools.fakers import fake
 
 @pytest.mark.users
 @pytest.mark.regression
+@allure.epic(AllureEpic.LMS)  # Добавили epic
+@allure.feature(AllureFeature.USERS)  # Добавили feature
+@allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.USERS)
 class TestUsers:
 
     @pytest.mark.parametrize("email", ["mail.ru", "gmail.com", "example.com"])
+    @allure.title("Create user")
+    @allure.tag(AllureTag.CREATE_ENTITY)
+    @allure.story(AllureStory.CREATE_ENTITY)
+    @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_user(self, email, public_users_client):
         request = CreateUserRequestSchema(email=fake.email(domain=email))
         response = public_users_client.create_user_api(request)
