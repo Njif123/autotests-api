@@ -14,6 +14,7 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.authentication
 class TestAuthentication:
     def test_login(
+            self,
             function_user: UserFixture,
             authentication_client: AuthenticationClient
     ):
