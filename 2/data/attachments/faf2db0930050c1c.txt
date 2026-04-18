@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b2c31698-b477-40f1-9e65-4ef2904e388f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjM1OjI5LjQ4MjczOSIsInVzZXJfaWQiOiI4ZjY3NWZhMy01N2Q4LTRmMWEtOGVkYy03MmIzOTE2YWI5MzMifQ.yJ5muvcyXpIXc_chaPLpSBDvGfY9JoKBn-iafGHVTaQ' \
+  -H 'content-length: 203' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reality long soldier son take.","maxScore":75,"minScore":3,"description":"Between free nor those score city various. Way occur garden state maybe economy major sign.","estimatedTime":"4 weeks"}'

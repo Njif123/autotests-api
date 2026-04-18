@@ -1,0 +1,29 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=6a720772-d91f-416c-9803-f7f85c7d8917
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=6a720772-d91f-416c-9803-f7f85c7d8917
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:63 Check that length of "courses" equals to 1
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to e3bace81-a570-4f95-962f-b325f7f459a6
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Sing have begin pressure.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 53
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Plant huge deep. Whose pay Mrs deep mention later group. Common the often move near.
+Dog history view student cup. Far speech whom become sense. Her subject manage he inside. Join one third avoid.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 2bac3902-b4ab-49ff-ac75-6484d8c025b1
+INFO     BASE_ASSERTIONS:base.py:37 Check that "url" equals to http://localhost:8000/static/tests/b5155c0f-0b58-4817-8ac4-e4b3a9324118.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "filename" equals to b5155c0f-0b58-4817-8ac4-e4b3a9324118.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "directory" equals to tests
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to 6a720772-d91f-416c-9803-f7f85c7d8917
+INFO     BASE_ASSERTIONS:base.py:37 Check that "email" equals to david05@example.org
+INFO     BASE_ASSERTIONS:base.py:37 Check that "last_name" equals to Bass
+INFO     BASE_ASSERTIONS:base.py:37 Check that "first_name" equals to Willie
+INFO     BASE_ASSERTIONS:base.py:37 Check that "middle_name" equals to Jason
+INFO     SCHEMA_ASSERTIONS:schema.py:10 Validating JSON schema

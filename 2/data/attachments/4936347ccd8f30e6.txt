@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjM1OjMxLjE0MDE5NCIsInVzZXJfaWQiOiI0YjAwYjBlMC02NmVjLTQ3M2UtYjAwZi00ZDJmNDMwNDU0MDcifQ.YW9l6NZUp8OVypb8faJN9wh0W5Vai3pWMCUgNeXoB6k' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Growth professional free marriage nation bank.","maxScore":79,"minScore":2,"description":"Also can key authority political choose population. Son low line best hold school choice. From could away fly.","estimatedTime":"7 weeks","previewFileId":"ceeb5219-95cc-4a3a-9169-27fe47318889","createdByUserId":"4b00b0e0-66ec-473e-b00f-4d2f43045407"}'

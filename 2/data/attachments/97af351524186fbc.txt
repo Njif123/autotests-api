@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjM1OjI5LjQ4MjczOSIsInVzZXJfaWQiOiI4ZjY3NWZhMy01N2Q4LTRmMWEtOGVkYy03MmIzOTE2YWI5MzMifQ.yJ5muvcyXpIXc_chaPLpSBDvGfY9JoKBn-iafGHVTaQ' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"College girl appear lead.","maxScore":63,"minScore":22,"description":"Apply effect left family. Size throughout raise yard piece either.\nArea garden need heart especially standard.","estimatedTime":"8 weeks","previewFileId":"a16d6edd-9671-435d-959f-fc932f15ec6b","createdByUserId":"8f675fa3-57d8-4f1a-8edc-72b3916ab933"}'
