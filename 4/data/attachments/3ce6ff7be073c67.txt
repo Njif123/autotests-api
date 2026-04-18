@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjU2OjI0Ljg3NTczNyIsInVzZXJfaWQiOiI3NDE3OGQ4Ni00YzI4LTQ2MTktODI4Ny01MzJhMzViZDdjOWEifQ.HT4Eu5fZUUeN29cbovvNkm--vxVQjy6C7aOPrQGw-bc' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Threat upon blood a.","maxScore":63,"minScore":25,"description":"Sometimes garden something everything industry protect provide. Evening give class receive crime ability imagine. Read not seat mention bring control meet.","estimatedTime":"2 weeks","previewFileId":"48d66766-90ae-4c78-b3b5-565424dc3ff6","createdByUserId":"74178d86-4c28-4619-8287-532a35bd7c9a"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjU2OjI3LjI2MTc0NyIsInVzZXJfaWQiOiI5M2U0ZmVkZC1jNTBiLTRlNjYtYTY5OS03MzFiYTdjY2MxMGQifQ.-Ho0rmvKgVwC5rS0bTBXKeYq2joUxxNTto4YS9XBeIM' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century bank summer them treatment situation.","courseId":"e9d21f7d-ca78-48c1-9f11-06666a257e9b","maxScore":90,"minScore":18,"orderIndex":78,"description":"Able space teach. Blue process add perhaps option source too.\nMusic everything seem little ago none push source. Rich two enough property total despite. Spend the Democrat heart force.","estimatedTime":"4 weeks"}'

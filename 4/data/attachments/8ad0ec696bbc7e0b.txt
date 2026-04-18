@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2a094d01-f4b0-40e6-b07c-da16cdae558a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjU2OjIzLjY0NjkyNSIsInVzZXJfaWQiOiIyNDQzZjE1Ny1jODQ3LTQ1MjgtYjBjMC1iYmMzMTM1Mzg4ODQifQ.4Rn6LzMlbSO7xqwY-Z7zFU57-58DgV9tCNdB_bjj1uA' \
+  -H 'content-length: 314' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain significant recognize collection cost.","maxScore":58,"minScore":19,"description":"Machine must this behind. Success laugh rock. Now rate product red.\nAvoid such trade.\nRace job board. Term view group themselves wait probably can almost. End not hear provide himself.","estimatedTime":"1 weeks"}'

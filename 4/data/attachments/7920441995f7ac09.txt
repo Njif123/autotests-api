@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjU2OjIzLjAyNzA3MSIsInVzZXJfaWQiOiJlMmU2OGJkMC02NTMzLTRmMGEtOTk2NC0yYjAyNzg0NTNlN2MifQ.f7FS3qTQBuqnNO0OHcixU3rvaYeEA66VAZyrQxFNMk0' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health star huge debate anything.","maxScore":100,"minScore":6,"description":"Let week receive discuss. How couple do address western dog.\nIndicate do security eight low recent. This reason good let. Him century reality visit receive brother teacher.","estimatedTime":"4 weeks","previewFileId":"31deff4d-56a4-4ed2-81a0-299914cce581","createdByUserId":"e2e68bd0-6533-4f0a-9964-2b0278453e7c"}'

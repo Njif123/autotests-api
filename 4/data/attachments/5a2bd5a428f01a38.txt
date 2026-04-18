@@ -1,0 +1,22 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/e675f401-4104-46e7-baea-458f7ac37373
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/e675f401-4104-46e7-baea-458f7ac37373
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to e675f401-4104-46e7-baea-458f7ac37373
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Performance during tax imagine own by.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to fc9d1427-07ff-4461-88b2-459872792b74
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 11
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 31
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Account particular research industry. Major weight also. Power kind quite today analysis morning.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:10 Validating JSON schema

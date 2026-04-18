@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjU2OjI1LjQ2MDYwNSIsInVzZXJfaWQiOiI1ZjFiNmIzNy1hNWFjLTRkNmItOTIyNi04YzJkMTA0MWM0ZDUifQ.2010jY1tA3JAyi75PaD2uh5HqoLfZ6Y-XcZzp8LaKa0' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Somebody rest when laugh imagine.","maxScore":79,"minScore":29,"description":"Must strong issue natural Mr support mouth.\nLoss reflect look certainly. Close economic common rest.","estimatedTime":"2 weeks","previewFileId":"1a1f786b-f4d0-4cdd-8100-37921c6ab9fd","createdByUserId":"5f1b6b37-a5ac-4d6b-9226-8c2d1041c4d5"}'

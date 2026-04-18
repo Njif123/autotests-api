@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/c65da185-4dc8-4c02-bc85-a2b5a8959d6b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA0LTE4VDA2OjU2OjI1LjQ2MDYwNSIsInVzZXJfaWQiOiI1ZjFiNmIzNy1hNWFjLTRkNmItOTIyNi04YzJkMTA0MWM0ZDUifQ.2010jY1tA3JAyi75PaD2uh5HqoLfZ6Y-XcZzp8LaKa0' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Crime sense history draw world choice.","maxScore":76,"minScore":19,"orderIndex":40,"description":"Staff field interesting show brother cup maintain. Behavior this alone wonder. Message kind indicate lose.","estimatedTime":"6 weeks"}'
